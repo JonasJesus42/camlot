@@ -1,9 +1,9 @@
 // pricsisso que as classes das imagens da segunda tela troquem fazendo a animação de que uma imagem que esla atras passou pra frente
-var  img1 =  "./img1.webp"
-var  img2 =  "./img2.webp"
-var  img3 =  "./img3.webp"
-var  img4 =  "./img4.webp"
-var  img5 =  "./img5.webp"
+var  img1 =  "./assets/img1.webp"
+var  img2 =  "./assets/img2.webp"
+var  img3 =  "./assets/img3.webp"
+var  img4 =  "./assets/img4.webp"
+var  img5 =  "./assets/img5.webp"
 
 var contador = 0
 
@@ -12,7 +12,7 @@ function trocaDeImagem(){
     contador++
 
     if(contador >= 5){
-        contador = 0
+        contador = 1
     }
 
     
